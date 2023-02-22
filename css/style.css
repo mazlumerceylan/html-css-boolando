@@ -51,6 +51,21 @@ header nav ul li a{
 }
 
 
+.immagine1 {
+  display: block;
+}
+.immagine2 {
+  display: none;
+}
+.immagine1 {
+}
+.image:hover .immagine1 {
+  display: none;
+}
+.image:hover .immagine2 {
+  display: block;
+}
+
 .product{
 	position: relative;
 	display: inline-block;
@@ -87,14 +102,9 @@ header nav ul li a{
 
 .product .heart{
 	position: absolute;
-	top: 0;
+	top: 10px;
 	right: 0;
 	color: red;
-	width: 100%;
-	text-align: center;
-	display: none;
+	font-size: 40px;
 }
 
-.product:hover .heart{
-	display: block;
-}
