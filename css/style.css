@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+padding: 100px 250px;
+text-align:
+}
+
+img{
+	max-width: 100%;
+}
+
+main{
+	padding: 100px 280px;
+	text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(249 105 3);
+}
+
+header img{
+  max-width: 120px;
+}
+
+header nav ul{
+  list-style: none;
+}
+
+header nav ul li{
+  display: inline-block;
+}
+
+header nav ul li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px;
+}
+
+
+.product{
+	position: relative;
+	display: inline-block;
+	width: 300px;
+	cursor: pointer;
+}
+
+.product .discount{
+	position: absolute;
+	bottom: 10px;
+  left: 0px;
+	padding: 5px 5px;
+	background-color: red;
+	color: white;
+}
+
+.product .sostenibility.ok{
+  position: absolute;
+	bottom: 10px;
+  left: 50px;
+	padding: 5px 5px;
+	background-color: green;
+	color: white;
+}
+
+.product .sostenibility.no{
+  position: absolute;
+	bottom: 10px;
+  left: 0px;
+	padding: 5px 5px;
+	background-color: green;
+	color: white;
+}
+
+.product .heart{
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: red;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+
+.product:hover .heart{
+	display: block;
+}
