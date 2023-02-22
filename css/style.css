@@ -32,13 +32,21 @@ main{
 	text-align: center;
 }
 
+.w-100{
+	width: 100%;
+}
+
 header{
   display: flex;
+	position: fixed;
+	z-index: 999;
   justify-content: space-around;
   align-items: center;
   height: 80px;
   background-color: rgb(249 105 3);
 }
+
+
 
 header img{
   max-width: 120px;
@@ -60,6 +68,10 @@ header nav ul li a{
   padding: 15px;
 }
 
+header div a{
+	padding: 2px;
+	color: white;
+}
 
 .immagine1 {
   display: block;
@@ -128,5 +140,9 @@ header nav ul li a{
 
 .destra{
 	text-align: center;
+}
+
+.destra a{
+	color: white;
 }
 
